@@ -341,8 +341,8 @@ def start(args, cmdline=None):
     else:
         songs = dosearch(args)
     if not args:
-        inp = compat_input("Enter artist/song to search or \\top for top music"
-                           " this week: ")
+        inp = compat_input("Enter artist/song to search or \\top \\top3m \\top6m"
+                           " \\topyear \\topall for top music or \\list [code playlist]")
         start(inp)
     elif not songs:
         print("Sorry, nothing matched %s%s%s" % (c.g, args, c.w))
