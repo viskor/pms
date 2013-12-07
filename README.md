@@ -22,6 +22,13 @@ Manually:
 
 Download [zip](https://github.com/np1/pms/archive/master.zip)/[tar.gz](https://github.com/np1/pms/archive/master.tar.gz) file and extract
 
+# Update with Git
+Because, the project is so active, you must have the last version.
+Go on your pms git clone folder and write :
+ git pull origin
+
+
+
 # Special instruction for Mac OSX.
     
     Download mplayer: https://www.macupdate.com/app/mac/18580/mplayer
